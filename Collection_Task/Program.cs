@@ -68,6 +68,41 @@ namespace Collection_Task
             //    Console.WriteLine(mark);
             //}
             #endregion
+
+            #region SortedList
+            //SortedList<int, string> LeaderBoard = new()
+            //{
+
+            //    [500] = "Ahmed",
+            //    [200]= "Sara",
+            //    [800]= "Ali",
+            //    [350]= "Mona"
+
+
+            //};
+
+            //foreach (var item in LeaderBoard)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            //Console.WriteLine(LeaderBoard.Keys[0]);
+            //Console.WriteLine(LeaderBoard.Values[0]);
+
+
+
+            //Console.WriteLine(LeaderBoard.ContainsKey(500));
+
+
+            //Console.WriteLine(LeaderBoard.TryGetValue(999,out string? player));
+
+            //LeaderBoard.Remove(200);
+            //foreach (var item in LeaderBoard)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
