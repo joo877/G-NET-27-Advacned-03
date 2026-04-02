@@ -103,6 +103,49 @@ namespace Collection_Task
             //    Console.WriteLine(item);
             //}
             #endregion
+
+            #region Dictionary
+            //Dictionary<string, string> contacts = new()
+            //{
+
+            //    ["yousef"] = "01012345678",
+            //    ["mohamed"] = "01087654321",
+            //    ["sara"] = "01055555555",
+            //    ["mona"] = "01099999999"
+
+
+
+
+            //};
+
+            //contacts["salma"]= "01011111111";
+
+            //contacts.Add("salma", "0121123111");
+
+            //if (contacts.TryAdd("salma", "0121123111"))
+            //    Console.WriteLine("added successfully");
+
+            //else
+            //    Console.WriteLine("key already exists");
+
+
+
+            //Console.WriteLine(contacts.ContainsKey("joo")) ;
+
+            //Console.WriteLine(contacts.GetValueOrDefault("Ahmed", "Not Found"));
+
+            //foreach (var item in contacts.Keys)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            //foreach (var item in contacts.Values)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
     }
 }
