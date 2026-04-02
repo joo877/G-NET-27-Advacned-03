@@ -146,6 +146,39 @@ namespace Collection_Task
             //}
 
             #endregion
+
+            #region HashSet
+            //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+            //{
+
+            //    "ahmed@test.com",
+            //    "AHMED@test.com", 
+            //    "sara@test.com",
+            //    "Sara@Test.Com"
+
+
+            //};
+
+            ////Console.WriteLine(emails.Count); // print 2  because of case insensitivity and hashset does not allow duplicates (unique key)
+           
+
+            //HashSet<int> A = new HashSet<int>() { 1, 2, 3, 4, 5 };
+            //HashSet<int> B = new HashSet<int>() { 4, 5, 6, 7, 8 };
+            ////A.UnionWith(B);
+            ////A.IntersectWith(B);
+            ////A.ExceptWith(B);
+
+            ////foreach (var item in A)
+            ////{
+            ////    Console.WriteLine(item);
+            ////}
+
+     
+
+            //HashSet<int> C = new HashSet<int>() { 1, 2};
+
+            //Console.WriteLine(C.IsSubsetOf(A));// true
+            #endregion
         }
     }
 }
