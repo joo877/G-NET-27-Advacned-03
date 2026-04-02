@@ -202,10 +202,55 @@ namespace Collection_Task
 
             //Console.WriteLine($"print:{files.Dequeue()}");
 
-          //  Queue<int> emtyQ= new Queue<int>();
-          //if( emtyQ.TryDequeue(out int x))
-          //      Console.WriteLine(x);
-          //  Console.WriteLine("filed Dequeue");
+            //  Queue<int> emtyQ= new Queue<int>();
+            //if( emtyQ.TryDequeue(out int x))
+            //      Console.WriteLine(x);
+            //  Console.WriteLine("filed Dequeue");
+            #endregion
+
+            #region Stack
+            // Stack<string> urls = new Stack<string>();
+            //urls.Push("google.com");
+            // urls.Push("github.com");
+            // urls.Push("stackoverflow.com");
+            // urls.Push("youtube.com");
+            // urls.Push("claude.ai");
+
+            // string? input;
+
+            // while (true)
+            // {
+            //     Console.WriteLine("write exsit to quite");
+            //     input = Console.ReadLine().ToLower();
+            //     if (input == "exsit")
+            //     {
+
+            //         break;
+            //     }
+
+            //     else if (input == "back")
+            //     {
+            //         urls.Pop();
+            //         Console.WriteLine($"Current URL: {urls.Peek()}");
+
+            //     }
+            //     else if (input == "forward ")
+            //     {
+
+            //         urls.Push(input);
+            //         Console.WriteLine($"Current URL: {urls.Peek()}");
+
+            //     }
+            //     else
+            //     {
+            //         urls.Push(input);
+            //         Console.WriteLine($"Current URL: {urls.Peek()}");
+
+            //     }
+            // }
+
+            // if stack is empty and we try to pop or peek it will throw an exception but if we use TryPop or TryPeek it will return false instead of throwing an exception
+
             #endregion
         }
     }
