@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Diagnostics.Metrics;
 
 namespace Collection_Task
 {
@@ -160,7 +161,7 @@ namespace Collection_Task
             //};
 
             ////Console.WriteLine(emails.Count); // print 2  because of case insensitivity and hashset does not allow duplicates (unique key)
-           
+
 
             //HashSet<int> A = new HashSet<int>() { 1, 2, 3, 4, 5 };
             //HashSet<int> B = new HashSet<int>() { 4, 5, 6, 7, 8 };
@@ -173,11 +174,38 @@ namespace Collection_Task
             ////    Console.WriteLine(item);
             ////}
 
-     
+
 
             //HashSet<int> C = new HashSet<int>() { 1, 2};
 
             //Console.WriteLine(C.IsSubsetOf(A));// true
+            #endregion
+
+            #region Queue
+
+            //Queue<string> files = new Queue<string>();
+
+            //files.Enqueue("Report.pdf");
+            //files.Enqueue("Invoice.pdf");
+            //files.Enqueue("Letter.docx");
+            //files.Enqueue("Resume.pdf");
+            //files.Enqueue("Photo.jpg");
+
+            //Console.WriteLine(files.Count);
+
+            //foreach (var file in files)
+            //{
+            //    Console.WriteLine(file);
+            //}
+
+            //Console.WriteLine(files.Peek());
+
+            //Console.WriteLine($"print:{files.Dequeue()}");
+
+          //  Queue<int> emtyQ= new Queue<int>();
+          //if( emtyQ.TryDequeue(out int x))
+          //      Console.WriteLine(x);
+          //  Console.WriteLine("filed Dequeue");
             #endregion
         }
     }
